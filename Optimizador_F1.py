@@ -19,7 +19,7 @@ from sklearn import metrics
 from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import cross_val_predict
 
-df = pd.read_excel('/content/Dataset (7).xlsx')
+df = pd.read_excel('Dataset.xlsx')
 
 df['Ritmo'].replace(['Conservar', 'Estandar','Ataque'],
                         [1,2,3], inplace=True)
